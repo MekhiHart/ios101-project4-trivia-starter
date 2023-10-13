@@ -31,11 +31,11 @@ The following **additional** features are implemented:
 
 Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
 
-[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
+https://youtu.be/NmbkDwV5R0w
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The biggest challenge was understanding the concept of using the main thread and background thread when changing the UI. I had to understand that when creating an API call is automatically ran as a task in the global thread, with a quality of service of a background. Which is why changing the UI was not working as expected until I used the main thread to make the UI changes.
 
 ## License
 
